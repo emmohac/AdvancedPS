@@ -7,10 +7,14 @@
 }
 
 #main .home-inner {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 body {
     background: #333;
     color: whitesmoke;
+}
+
+.nav-link {
+    font-size: larger;
 }
