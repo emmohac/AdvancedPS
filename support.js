@@ -4,6 +4,7 @@ $("body").scrollspy({
     target: "#navigation"
 });
 
+//Smooth scroll
 $("#navigation a").on("click", function (event) {
     if (this.hash !== "") {
         event.preventDefault();
@@ -21,6 +22,7 @@ $("#navigation a").on("click", function (event) {
     }
 });
 
+//Allowing collapse to be dismissed when click outside of card-body
 $("html body").click(function (e) {
     if (!$(e.target).is(".card-body"))
         $(".collapse").collapse("hide");
