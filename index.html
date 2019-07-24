@@ -40,32 +40,17 @@
 
     <!-- Main Page -->
     <header id="main">
-        <div class="container home-inner" style="border: 1px solid green;">
-            <div class="row" style="border: 1px solid yellow;">
-                <div class="col d-lg-block text-center" style="border: 1px solid red;">
+        <div class="container home-inner">
+            <div class="row">
+                <div class="col d-lg-block text-center">
                     <h1 class="display-3"><strong>Welcome to My Page</strong></h1>
                     <h3 class="display-4">You can find things about me here</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                        iste placeat veritatis nam atque exercitationem enim eaque
-                        voluptatem. Debitis officia magni repellat quos fuga similique
-                        eius optio harum accusamus numquam?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                        provident doloribus esse, voluptatum est atque aspernatur rerum
-                        corrupti quae asperiores iusto impedit, perspiciatis possimus
-                        ipsum in doloremque cum neque recusandae, enim itaque debitis
-                        quos. Accusantium ad blanditiis doloribus natus saepe est deleniti
-                        libero, ut, voluptate asperiores voluptatibus cumque
-                        necessitatibus corporis?
-                    </p>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="bg-dark py-5" id="preAbout">
+    <section class="py-4 bg-dark" id="about">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -87,69 +72,64 @@
         </div>
     </section>
     <!-- About Me-->
-    <section class="bg-dark" id="about">
+    <section id="afterAbout" class="py-4 bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-5">
                     <img src="image/myself.jpg" class="img-fluid" />
                 </div>
-                <div class="col-md-7">
-                    <!-- <h2 class=" display-4 text-center"><strong>About Me</strong></h2> -->
-                    <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                        odit delectus quibusdam amet eligendi exercitationem!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
-                        iste autem odit fugiat fugit corporis in eos soluta, asperiores
-                        possimus odio nisi ea consequatur voluptatum natus harum illum?
-                        Omnis assumenda unde qui eos nihil, iste dignissimos, est nam
-                        numquam illo architecto accusamus consequatur laboriosam ratione
-                        enim quas fugit reiciendis ut.
-                    </p> -->
-
-                    <!-- <button class="btn btn-dark btn-outline-light d-block mt-5 mb-3" data-toggle="collapse"
-                        data-target="#skills">
+                <div class="col-7">
+                    <button class="btn btn-light btn-outline-dark d-block" data-toggle="collapse" data-target="#skills">
                         Skills
-                    </button> -->
-                    <!-- <div class="collapse mb-3" id="skills"> -->
-                    <div class="card">
-                        <div class="card-body bg-dark">
-                            C++
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated"
-                                    style="width: 70%;"></div>
-                            </div>
-                            Java
-                            <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated"
-                                    style="width: 50%;"></div>
-                            </div>
-                            JavaScript
-                            <div class="progress">
-                                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
-                                    style="width: 30%"></div>
-                            </div>
+                    </button>
+                    <div class="collapse mb-3" id="skills">
+                        <div class="card">
+                            <div class="card-body text-muted">
+                                C++
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width: 70%;"></div>
+                                </div>
+                                Java
+                                <div class="progress">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                                        style="width: 50%;"></div>
+                                </div>
+                                JavaScript
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                        style="width: 30%"></div>
+                                </div>
 
+                            </div>
                         </div>
                     </div>
-                    <!-- </div> -->
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Pre Project-->
-    <section class="bg-dark py-5" id="preProject">
-        <h2 class="display-4 text-center">
-            <strong>Project</strong>
-        </h2>
+    <section class="py-4" id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 text-center">
+                        <strong>Project</strong>
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa at itaque laboriosam
+                        voluptas ipsa.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- Projects-->
-    <section id="project">
-        <div class="container-fluid px-5">
-            <div class="row">
+    <section id="afterProject" class="py-4">
+        <div class="container">
+            <div class="row py-2">
                 <div class="col">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/-Zk0d_VimuM" frameborder="0"
@@ -158,15 +138,38 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h2 class=" display-4 text-center"><strong>Project</strong></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci nostrum voluptatibus
-                        doloremque natus odit ullam suscipit maiores perferendis, error quod esse harum quaerat iusto.
-                    </p>
+                    <h3 class="text-center">FabFlix (MVP)</h3>
+                    <p>Languages: Java, SQL, HTML, CSS, JavaScript</p>
+                    <p>Stack: JDBC, Jersey, Jackson, Grizzly, jQuery, MySQL</p>
+                    <p>From: 03/2019-06/2019</p>
+                    <p>Individual project at UCI</p>
                 </div>
             </div>
-
+            <div class="row py-2">
+                <div class="col order-1">
+                    <h3 class="text-center">FriendlyCarWasher</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dolor sequi harum ex
+                        veritatis, obcaecati ipsum praesentium velit. Deleniti, eveniet repudiandae praesentium,
+                        reprehenderit ullam ipsum nesciunt nam officia ducimus vitae aut quod, alias iusto quisquam
+                        molestias totam est assumenda? Voluptas delectus ipsa cumque earum. Nulla eaque dicta tempora
+                        eveniet dolorem.</p>
+                </div>
+                <div class="col order-2">
+                    <h3 class="text-center">Carousel Goes Here</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsum commodi vero numquam
+                        dignissimos ratione eos qui sed tempore! Dolorem.</p>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
