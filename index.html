@@ -16,6 +16,9 @@
 
     <!-- Customized CSS-->
     <link href="style.css" rel="stylesheet" />
+
+    <!-- Customized JS-->
+    <script src="support.js" defer></script>
 </head>
 
 <body data-spy="scroll" data-target="#navigation" id="home">
@@ -225,37 +228,6 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-    <!-- Optional JavaScript -->
-    <script>
-        $("#year").text(new Date().getFullYear());
-
-        $("body").scrollspy({
-            target: "#navigation"
-        });
-
-        $("#navigation a").on("click", function (event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-
-                const hash = this.hash;
-
-                $("html, body").animate({
-                        scrollTop: $(hash).offset().top
-                    },
-                    800,
-                    function () {
-                        window.location.hash = hash;
-                    }
-                );
-            }
-        });
-
-        $("html body").click(function (e) {
-            if (!$(e.target).is(".card-body"))
-                $(".collapse").collapse("hide");
-        })
     </script>
 </body>
 
