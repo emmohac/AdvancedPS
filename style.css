@@ -18,3 +18,10 @@ body {
 .nav-link {
     font-size: larger;
 }
+
+.fab {
+    padding: 5px;
+    border-radius: 5px;
+    background: #333;
+    color: whitesmoke;
+}
