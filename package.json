@@ -1,0 +1,19 @@
+{
+  "name": "advancedps",
+  "version": "1.0.0",
+  "description": "portfolio draft",
+  "main": "support.js",
+  "scripts": {
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmohac/AdvancedPS.git"
+  },
+  "author": "Huy Minh Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmohac/AdvancedPS/issues"
+  },
+  "homepage": "https://github.com/emmohac/AdvancedPS#readme"
+}

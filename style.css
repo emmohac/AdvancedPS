@@ -36,3 +36,11 @@ body {
     background: #333;
     color: whitesmoke;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
