@@ -27,6 +27,3 @@ $("html body").click(function (e) {
     if (!$(e.target).is(".card-body") && !$(e.target).is(".progress"))
         $(".collapse").collapse("hide");
 });
-
-//Displaying date and time
-$("#date").text(new Date().toDateString());
