@@ -27,6 +27,3 @@ $("html body").click(function (e) {
     if (!$(e.target).is(".card-body"))
         $(".collapse").collapse("hide");
 });
-
-//Displaying date and time
-$("#date").text(new Date().toDateString());
