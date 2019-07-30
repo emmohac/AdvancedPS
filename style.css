@@ -41,8 +41,20 @@ body {
 
 a:link {
     text-decoration: none;
+
+    /* cursor: pointer; */
 }
 
 a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+a:active {
+    color: turquoise;
     text-decoration: none;
 }
