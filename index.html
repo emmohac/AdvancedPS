@@ -22,6 +22,9 @@
 
     <!-- Shortcut icon-->
     <link rel="shortcut icon" type="image/x-icon" href="image/logo.png">
+
+    <!-- Customized font-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#navigation" id="home">
@@ -38,7 +41,7 @@
                     <li class="nav-item"><a href="#main" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <!-- <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -58,7 +61,7 @@
     </header>
 
     <!-- About Me-->
-    <section class="py-2 bg-dark" id="about">
+    <section class="py-2 bg-dark" id="about" style="border-bottom: 1px solid turquoise;">
         <div class="container">
             <div class="row py-2">
                 <div class="col">
@@ -82,7 +85,8 @@
         </div>
     </section>
     <!-- Project-->
-    <section class="py-4" id="project">
+    <section class="py-4 bg-dark" id="project"
+        style="border-bottom: 1px solid turquoise; border-top: 1px solid turquoise;">
         <div class="container">
             <div class="row py-2">
                 <div class="col">
@@ -171,9 +175,9 @@
 
     </section>
 
-    <footer class="bg-dark py-2">
+    <footer>
         <!-- id = "contact" -->
-        <section>
+        <section class="bg-dark py-2" id="contact" style="border-top: 1px solid turquoise;">
             <div class="container">
                 <div class="row">
                     <div class="col">
