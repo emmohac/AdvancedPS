@@ -13,10 +13,9 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#project,
-#about {
-    height: 100%;
-}
+/* #about { */
+/* height: 100%; */
+/* } */
 
 #main .home-inner {
     padding-top: 200px;
