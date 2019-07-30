@@ -18,6 +18,7 @@ $("#cs").hover(function () {
     $(this).css("background-color", "#343a40");
     $(this).css("color", "whitesmoke");
 });
+
 $("#year").text(new Date().getFullYear());
 
 $("body").scrollspy({
