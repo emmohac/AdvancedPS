@@ -13,10 +13,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* #about { */
-/* height: 100%; */
-/* } */
-
 #main .home-inner {
     padding-top: 200px;
 }
@@ -40,8 +36,6 @@ body {
 
 a:link {
     text-decoration: none;
-
-    /* cursor: pointer; */
 }
 
 a:visited {
