@@ -45,6 +45,9 @@ $("#navigation a").on("click", function (event) {
 
 //Allowing collapse to be dismissed when click outside of card-body
 $("html body").click(function (e) {
-    if (!$(e.target).is(".card-body") && !$(e.targget).is("#fcw"))
+    if (!$(e.target).is(".card-body"))
         $(".collapse").collapse("hide");
+    // else if (!$(e.target).is(".btn"))
+    // $(".collapse").collapse("show");
+
 });
