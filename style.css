@@ -7,6 +7,13 @@
     height: 100%;
 }
 
+
+.carousel-control-next,
+.carousel-control-prev,
+#darker {
+    filter: invert(100%);
+}
+
 html,
 body {
     height: 100%;

@@ -41,7 +41,6 @@
                     <li class="nav-item"><a href="#main" class="nav-link" id="test">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link" id="test">About</a></li>
                     <li class="nav-item"><a href="#project" class="nav-link" id="test">Project</a></li>
-                    <!-- <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -94,7 +93,7 @@
                     </p>
                     <p class="lead text-justify pb-1"><u>Fun facts:</u> I do not like raw food and I love drinking
                         coffee
-                        (which almost every SE loves)
+                        (which almost every SE loves).
                     </p>
                     <div class="pt-4 d-flex justify-content-center">
                         <a href="Huy_Tran_resume.pdf" class="btn btn-success btn-lg"
@@ -111,6 +110,7 @@
         <div class="container">
             <div class="row py-3">
                 <div class="col-sm-12 col-sm-offset-2">
+                    <!-- Using .col-sm-12 col-sm-offset-2 to ensure the column will stack upon each other for mobile view -->
                     <div class="row py-4">
                         <div class="col">
                             <h2 class="display-3 text-center"><strong>Projects</strong></h2>
@@ -153,12 +153,13 @@
                 <div class="col-sm-12 col-sm-offset-2">
                     <div class="row">
                         <div class="col-sm-6 py-3 order-sm-12">
+                            <!-- When small portview, this col will be stacked on top of other col -->
                             <div class="carousel slide" id="slider" data-ride="carousel">
                                 <ol class="carousel-indicators">
-                                    <li data-target="#slider" class="active" data-slide-to="0"></li>
-                                    <li data-target="#slider" data-slide-to="1"></li>
-                                    <li data-target="#slider" data-slide-to="2"></li>
-                                    <li data-target="#slider" data-slide-to="3"></li>
+                                    <li id="darker" data-target="#slider" class="active" data-slide-to="0"></li>
+                                    <li id="darker" data-target="#slider" data-slide-to="1"></li>
+                                    <li id="darker" data-target="#slider" data-slide-to="2"></li>
+                                    <li id="darker" data-target="#slider" data-slide-to="3"></li>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -177,7 +178,6 @@
                                         <img class="img-fluid rounded" src="image/fourth_slide.png" alt="Fourth Slide">
                                     </div>
                                 </div>
-
                                 <a href="#slider" class="carousel-control-prev" data-slide="prev">
                                     <span class="carousel-control-prev-icon"></span>
                                 </a>
@@ -187,6 +187,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 py-3 order-sm-1">
+                            <!-- Lower order -->
                             <h3 class="text-center"><button class="btn btn-success btn-lg" data-toggle="collapse"
                                     data-target="#fcw">FriendlyCarWashers</button></h3>
                             <div class="collapse" id="fcw">
@@ -215,7 +216,6 @@
     </section>
 
     <footer>
-        <!-- id = "contact" -->
         <section class="bg-dark py-2 border-top" id="contact">
             <div class="container">
                 <div class="row">
